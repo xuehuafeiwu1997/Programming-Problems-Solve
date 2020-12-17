@@ -41,7 +41,7 @@
     }
     NSLog(@"DView的所有的父类为%@",self.DArray);
     Class CSuperClass = [CView superclass];
-    while (1) {
+    while (CSuperClass != nil) {
         BOOL success = false;
         for (int i = 0; i < self.DArray.count; i++) {
             if (CSuperClass == [self.DArray objectAtIndex:i]) {
