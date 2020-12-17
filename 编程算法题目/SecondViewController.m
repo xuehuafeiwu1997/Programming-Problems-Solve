@@ -13,6 +13,7 @@
 
 @interface SecondViewController ()
 @property (nonatomic, strong) NSMutableArray *DArray;
+@property (nonatomic, strong) NSMutableArray *CArray;
 
 @end
 
@@ -26,16 +27,18 @@
     self.navigationController.navigationBar.translucent = NO;
     self.view.backgroundColor = [UIColor whiteColor];
     self.title = @"寻找两个UIView的最近公共父类";
+//    [self solveMethod1];//时间复杂度O(n2)
+    [self solveMethod2];//时间复杂度为O(n)
+    
+}
+
+- (void)solveMethod1 {
     //寻找DView和CView的最近公共父类，一定会存在公共父类的，因为所有的类都继承于基类NSObject，而且DView和CView都属于UIView的子类
     Class DSuperClass = [DView superclass];
-    while (DSuperClass != [NSObject class]) {
+    while (DSuperClass != nil) {
         [self.DArray addObject:DSuperClass];
         DSuperClass = [DSuperClass superclass];
-//        if (self.DArray.count >= 6) {
-//            break;
-//        }
     }
-    [self.DArray addObject:DSuperClass];
     NSLog(@"DView的所有的父类为%@",self.DArray);
     Class CSuperClass = [CView superclass];
     while (1) {
@@ -47,11 +50,49 @@
                 break;
             }
         }
+        //当success为true时，说明已经找到相应的父类，跳出循环
         if (success) {
             break;
         }
+        CSuperClass = [CSuperClass superclass];
     }
     //这样的话，时间复杂度是O(n2)，需要进行优化
+}
+
+//倒Y型链表
+- (void)solveMethod2 {
+    Class CSuperClass = [CView superclass];
+    while (CSuperClass != nil) {
+        [self.CArray addObject:CSuperClass];
+        CSuperClass = [CSuperClass superclass];
+    }
+    
+    Class DSuperClass = [DView superclass];
+    while (DSuperClass != nil) {
+        [self.DArray addObject:DSuperClass];
+        DSuperClass = [DSuperClass superclass];
+    }
+    
+    NSInteger count = MIN(self.CArray.count, self.DArray.count);
+    Class resultClass;
+    for (int i = 0; i < count; i++) {
+        Class classC = [self.CArray objectAtIndex:self.CArray.count - 1 - i];
+        Class classD = [self.DArray objectAtIndex:self.DArray.count - 1 - i];
+        if (classC == classD) {
+            resultClass = classC;
+        } else {
+            break;;
+        }
+    }
+    NSLog(@"最近的公共父类为%@",resultClass);
+}
+
+- (NSMutableArray *)CArray {
+    if (_CArray) {
+        return _CArray;
+    }
+    _CArray = [NSMutableArray array];
+    return _CArray;
 }
 
 - (NSMutableArray *)DArray {
