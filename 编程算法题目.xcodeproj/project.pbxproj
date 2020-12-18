@@ -20,6 +20,7 @@
 		B6DA8E15258B3EEE000A401C /* CView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DA8E14258B3EEE000A401C /* CView.m */; };
 		B6DA8E1B258B3FAF000A401C /* DView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DA8E1A258B3FAF000A401C /* DView.m */; };
 		B6DA8E21258B6162000A401C /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DA8E20258B6162000A401C /* ThirdViewController.m */; };
+		B6DA8E30258CA3F8000A401C /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DA8E2F258CA3F8000A401C /* FourthViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,8 @@
 		B6DA8E1A258B3FAF000A401C /* DView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DView.m; sourceTree = "<group>"; };
 		B6DA8E1F258B6162000A401C /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		B6DA8E20258B6162000A401C /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		B6DA8E2E258CA3F8000A401C /* FourthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		B6DA8E2F258CA3F8000A401C /* FourthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +136,8 @@
 				B6DA8E1A258B3FAF000A401C /* DView.m */,
 				B6DA8E1F258B6162000A401C /* ThirdViewController.h */,
 				B6DA8E20258B6162000A401C /* ThirdViewController.m */,
+				B6DA8E2E258CA3F8000A401C /* FourthViewController.h */,
+				B6DA8E2F258CA3F8000A401C /* FourthViewController.m */,
 				B665ED25258AFD0E00EA3131 /* Assets.xcassets */,
 				B665ED27258AFD0E00EA3131 /* LaunchScreen.storyboard */,
 				B665ED2A258AFD0E00EA3131 /* Info.plist */,
@@ -293,6 +298,7 @@
 				B6DA8E15258B3EEE000A401C /* CView.m in Sources */,
 				B665ED5C258AFDCE00EA3131 /* FirstViewController.m in Sources */,
 				B6DA8E21258B6162000A401C /* ThirdViewController.m in Sources */,
+				B6DA8E30258CA3F8000A401C /* FourthViewController.m in Sources */,
 				B6DA8E0F258B3E48000A401C /* BView.m in Sources */,
 				B6DA8E09258B3DDA000A401C /* AView.m in Sources */,
 				B665ED2C258AFD0E00EA3131 /* main.m in Sources */,
