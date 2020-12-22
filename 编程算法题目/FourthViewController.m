@@ -21,7 +21,16 @@
     self.navigationController.navigationBar.translucent = NO;
     self.title = @"不用临时变量交换两个int型整数";
 //    [self solveMethod1];
-    [self solveMethod2];
+//    [self solveMethod2];
+    
+    /*
+     结果是下面的for循环一次都没有进，数组的count是NSUInteger类型的，-1与其比较时隐式转换成NSUIteger,变成了一个很大的数字
+     */
+    NSArray *items = @[@1,@2,@3];
+    int i = -1;
+    for (; i < items.count; i++) {
+        NSLog(@"%d",i);
+    }
 }
 
 - (void)solveMethod1 {
