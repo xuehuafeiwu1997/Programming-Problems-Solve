@@ -52,7 +52,6 @@
     
     [NSThread detachNewThreadSelector:@selector(second) toTarget:self withObject:nil];
     
-    
 }
 
 - (void)first {
