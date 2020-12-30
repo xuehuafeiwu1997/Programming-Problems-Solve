@@ -279,8 +279,8 @@
             filePath = "&#x7f16;&#x7a0b;&#x7b97;&#x6cd5;&#x9898;&#x76ee;/FooBar.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
             landmarkName = "-foo"
             landmarkType = "7">
          </BreakpointContent>

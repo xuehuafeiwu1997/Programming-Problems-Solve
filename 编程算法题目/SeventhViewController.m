@@ -25,8 +25,21 @@
     self.title = @"多线程练习2:交替输出foolBar";
     
     self.fooBar = [FooBar sharedInstance];
-    [self.fooBar foo];
-    [self.fooBar bar];
+//    [self.fooBar foo];
+//    [self.fooBar bar];
+    
+    NSOperationQueue *queue = [[NSOperationQueue alloc] init];
+    queue.maxConcurrentOperationCount = 2;//最大并发线程数为2
+    NSBlockOperation *operation1 = [NSBlockOperation blockOperationWithBlock:^{
+        [self.fooBar foo];
+    }];
+    NSBlockOperation *operation2 = [NSBlockOperation blockOperationWithBlock:^{
+        [self.fooBar bar];
+    }];
+    
+    [queue addOperation:operation1];
+    [queue addOperation:operation2];
+    
 }
 
 
