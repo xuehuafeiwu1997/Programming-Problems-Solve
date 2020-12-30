@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B60EF367259C258400F41652 /* SeventhViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60EF366259C258400F41652 /* SeventhViewController.m */; };
+		B60EF36D259C26BA00F41652 /* FooBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B60EF36C259C26BA00F41652 /* FooBar.m */; };
 		B665ED1B258AFD0A00EA3131 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B665ED1A258AFD0A00EA3131 /* AppDelegate.m */; };
 		B665ED26258AFD0E00EA3131 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B665ED25258AFD0E00EA3131 /* Assets.xcassets */; };
 		B665ED29258AFD0E00EA3131 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B665ED27258AFD0E00EA3131 /* LaunchScreen.storyboard */; };
@@ -15,6 +17,7 @@
 		B665ED41258AFD0F00EA3131 /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B665ED40258AFD0F00EA3131 /* ______UITests.m */; };
 		B665ED5C258AFDCE00EA3131 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B665ED5B258AFDCE00EA3131 /* FirstViewController.m */; };
 		B665ED62258B391A00EA3131 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B665ED61258B391A00EA3131 /* SecondViewController.m */; };
+		B673F18425932712004C86EF /* SixthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B673F18325932712004C86EF /* SixthViewController.m */; };
 		B6DA8E09258B3DDA000A401C /* AView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DA8E08258B3DDA000A401C /* AView.m */; };
 		B6DA8E0F258B3E48000A401C /* BView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DA8E0E258B3E48000A401C /* BView.m */; };
 		B6DA8E15258B3EEE000A401C /* CView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DA8E14258B3EEE000A401C /* CView.m */; };
@@ -42,6 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B60EF365259C258400F41652 /* SeventhViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SeventhViewController.h; sourceTree = "<group>"; };
+		B60EF366259C258400F41652 /* SeventhViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeventhViewController.m; sourceTree = "<group>"; };
+		B60EF36B259C26BA00F41652 /* FooBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FooBar.h; sourceTree = "<group>"; };
+		B60EF36C259C26BA00F41652 /* FooBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FooBar.m; sourceTree = "<group>"; };
 		B665ED16258AFD0A00EA3131 /* 编程算法题目.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "编程算法题目.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B665ED19258AFD0A00EA3131 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B665ED1A258AFD0A00EA3131 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -59,6 +66,8 @@
 		B665ED5B258AFDCE00EA3131 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		B665ED60258B391A00EA3131 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		B665ED61258B391A00EA3131 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		B673F18225932712004C86EF /* SixthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SixthViewController.h; sourceTree = "<group>"; };
+		B673F18325932712004C86EF /* SixthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SixthViewController.m; sourceTree = "<group>"; };
 		B6DA8E07258B3DDA000A401C /* AView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AView.h; sourceTree = "<group>"; };
 		B6DA8E08258B3DDA000A401C /* AView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AView.m; sourceTree = "<group>"; };
 		B6DA8E0D258B3E48000A401C /* BView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BView.h; sourceTree = "<group>"; };
@@ -143,6 +152,12 @@
 				B6DA8E2F258CA3F8000A401C /* FourthViewController.m */,
 				B6DA8E35258CBCEA000A401C /* FifthViewController.h */,
 				B6DA8E36258CBCEA000A401C /* FifthViewController.m */,
+				B673F18225932712004C86EF /* SixthViewController.h */,
+				B673F18325932712004C86EF /* SixthViewController.m */,
+				B60EF365259C258400F41652 /* SeventhViewController.h */,
+				B60EF366259C258400F41652 /* SeventhViewController.m */,
+				B60EF36B259C26BA00F41652 /* FooBar.h */,
+				B60EF36C259C26BA00F41652 /* FooBar.m */,
 				B665ED25258AFD0E00EA3131 /* Assets.xcassets */,
 				B665ED27258AFD0E00EA3131 /* LaunchScreen.storyboard */,
 				B665ED2A258AFD0E00EA3131 /* Info.plist */,
@@ -307,7 +322,10 @@
 				B6DA8E30258CA3F8000A401C /* FourthViewController.m in Sources */,
 				B6DA8E0F258B3E48000A401C /* BView.m in Sources */,
 				B6DA8E09258B3DDA000A401C /* AView.m in Sources */,
+				B60EF367259C258400F41652 /* SeventhViewController.m in Sources */,
 				B665ED2C258AFD0E00EA3131 /* main.m in Sources */,
+				B60EF36D259C26BA00F41652 /* FooBar.m in Sources */,
+				B673F18425932712004C86EF /* SixthViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

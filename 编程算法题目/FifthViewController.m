@@ -21,7 +21,7 @@
     
     self.view.backgroundColor = [UIColor whiteColor];
     self.navigationController.navigationBar.translucent = NO;
-    self.title = @"多线程按序打印";
+    self.title = @"多线程按序打印一";
     
     //按照一三二的顺序打印输出
     /*
