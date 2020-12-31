@@ -15,6 +15,7 @@
 #import "SeventhViewController.h"
 #import "EightViewController.h"
 #import "NinthViewController.h"
+#import "TenthViewController.h"
 
 @interface AppDelegate ()
 
@@ -36,7 +37,8 @@
 //    SixthViewController *vc = [[SixthViewController alloc] init];
 //    SeventhViewController *vc = [[SeventhViewController alloc] init];
 //    EightViewController *vc = [[EightViewController alloc] init];
-    NinthViewController *vc = [[NinthViewController alloc] init];
+//    NinthViewController *vc = [[NinthViewController alloc] init];
+    TenthViewController *vc = [[TenthViewController alloc] init];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
     self.window.rootViewController = nav;
     

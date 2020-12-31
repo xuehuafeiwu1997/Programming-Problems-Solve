@@ -11,6 +11,7 @@
 		B60EF36D259C26BA00F41652 /* FooBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B60EF36C259C26BA00F41652 /* FooBar.m */; };
 		B60EF376259C6A8400F41652 /* EightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60EF375259C6A8400F41652 /* EightViewController.m */; };
 		B60EF37C259C7C2400F41652 /* NinthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60EF37B259C7C2400F41652 /* NinthViewController.m */; };
+		B60EF382259C933E00F41652 /* TenthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60EF381259C933E00F41652 /* TenthViewController.m */; };
 		B665ED1B258AFD0A00EA3131 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B665ED1A258AFD0A00EA3131 /* AppDelegate.m */; };
 		B665ED26258AFD0E00EA3131 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B665ED25258AFD0E00EA3131 /* Assets.xcassets */; };
 		B665ED29258AFD0E00EA3131 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B665ED27258AFD0E00EA3131 /* LaunchScreen.storyboard */; };
@@ -55,6 +56,8 @@
 		B60EF375259C6A8400F41652 /* EightViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EightViewController.m; sourceTree = "<group>"; };
 		B60EF37A259C7C2400F41652 /* NinthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NinthViewController.h; sourceTree = "<group>"; };
 		B60EF37B259C7C2400F41652 /* NinthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NinthViewController.m; sourceTree = "<group>"; };
+		B60EF380259C933E00F41652 /* TenthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TenthViewController.h; sourceTree = "<group>"; };
+		B60EF381259C933E00F41652 /* TenthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TenthViewController.m; sourceTree = "<group>"; };
 		B665ED16258AFD0A00EA3131 /* 编程算法题目.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "编程算法题目.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B665ED19258AFD0A00EA3131 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B665ED1A258AFD0A00EA3131 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -168,6 +171,8 @@
 				B60EF375259C6A8400F41652 /* EightViewController.m */,
 				B60EF37A259C7C2400F41652 /* NinthViewController.h */,
 				B60EF37B259C7C2400F41652 /* NinthViewController.m */,
+				B60EF380259C933E00F41652 /* TenthViewController.h */,
+				B60EF381259C933E00F41652 /* TenthViewController.m */,
 				B665ED25258AFD0E00EA3131 /* Assets.xcassets */,
 				B665ED27258AFD0E00EA3131 /* LaunchScreen.storyboard */,
 				B665ED2A258AFD0E00EA3131 /* Info.plist */,
@@ -334,6 +339,7 @@
 				B60EF376259C6A8400F41652 /* EightViewController.m in Sources */,
 				B6DA8E0F258B3E48000A401C /* BView.m in Sources */,
 				B6DA8E09258B3DDA000A401C /* AView.m in Sources */,
+				B60EF382259C933E00F41652 /* TenthViewController.m in Sources */,
 				B60EF367259C258400F41652 /* SeventhViewController.m in Sources */,
 				B665ED2C258AFD0E00EA3131 /* main.m in Sources */,
 				B60EF36D259C26BA00F41652 /* FooBar.m in Sources */,
